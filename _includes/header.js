@@ -11,7 +11,7 @@
 				input.value="";
 				input.style.color="#333";
 			}
-		}
+		};
 		input.onblur=function() {
 			if (input.value==="") {
 				input.value="Cari...";
