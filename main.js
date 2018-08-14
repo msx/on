@@ -29,7 +29,7 @@ layout: compress
 		button.style.display = "none";
 		input.value = "Cari...";
 		input.focus();
-	}
+	};
 	function reset() {
 		var r = document.querySelector(".header form input").value="";r.focus();
 	}
@@ -41,5 +41,5 @@ layout: compress
 		var target=e.target;
 		if( !checkbox.checked || toggle.contains(target) || (target===checkbox || target===toggle)) return;
 		checkbox.checked=false;
-	}
+	};
 })();
