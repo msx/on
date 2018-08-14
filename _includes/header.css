@@ -1,0 +1,149 @@
+.header {
+	background: #ffffff;
+	border-bottom: 1px solid #e7e7e7;
+}
+.header h1, .header h2 {
+	display: inline;
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0;
+}
+.header a {
+	color: inherit;
+}
+.header [type=checkbox] {
+	display: none;
+}
+.header label,
+.header button {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 0;
+	padding: .2em;
+	position: absolute;
+	top: 50%;
+	right: .2em;
+}
+.header .search {
+	right: 2.2em;
+}
+.header .back {
+	left: .6em;
+	right: auto;
+	z-index: 1;
+}
+.header label:hover {
+	background: #e7e7e7;
+}
+.header .section {
+	background: #ffffff;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+	-webkit-box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	-moz-box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	min-width: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 1em;
+	width: 0;
+}
+.header .section a {
+	display: block;
+	font-size: 90%;
+	padding: .6em 1em;
+	white-space: pre;
+}
+.header .section a:hover {
+	background: #f7f7f7;
+}
+.header #more:checked ~ nav .section {
+	min-width: 9em;
+}
+.header form {
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	visibility: hidden;
+}
+.header #search:checked ~ form {
+	right: 1em;
+	visibility: visible;
+}
+.header input {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+	background: #ffffff;
+	border: 0;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+	-webkit-box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	-moz-box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	font: inherit;
+	line-height: normal;
+	outline: 0;
+	padding: .8em 1em .8em 3em;
+	width: 100%;
+}
+.header input::-ms-clear,
+.header input::-ms-reveal {
+	display: none;
+	width: 0;
+	height: 0;
+}
+.header input::-webkit-search-decoration,
+.header input::-webkit-search-cancel-button,
+.header input::-webkit-search-results-button,
+.header input::-webkit-search-results-decoration {
+	display: none;
+}
+.header ::-webkit-input-placeholder {
+	color: #888;
+}
+.header ::-moz-placeholder {
+	color: #888;
+	opacity: 1;
+}
+.header :-moz-placeholder {
+	color: #888;
+}
+.header ::-ms-input-placeholder {
+	color: #888;
+}
+.header :-ms-input-placeholder {
+	color: #888;
+}
+.header ::placeholder {
+	color: #888;
+	opacity: 1;
+}
+.header button {
+	background: #ffffff;
+	border: 0;
+	display: none;
+	outline: 0;
+	right: .6em;
+}
+.header form input:valid ~ button {
+	display: block;
+}
+.header .back, .header .section, .header form {
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+}
+.header form, .header label, .header button {
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);;
+	transform: translate(0, -50%);
+}
