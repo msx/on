@@ -1,0 +1,38 @@
+*, *::before, *::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: "Liberation Sans", "Nimbus Sans L", "FreeSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+}
+@media (min-width:480px) {
+	html {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+}
+body {
+	background: #f9f9f9;
+	color: #333333;
+	font-size: 1em;
+	margin: 0;
+}
+a {
+	background: transparent;
+	color: #0ba9f4;
+	text-decoration: none;
+	outline: 0;
+}
+.container {
+	margin: auto;
+	max-width: 1200px;
+}
+.inner {
+	padding: .85em 1em;
+	position: relative;
+}
