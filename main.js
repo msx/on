@@ -1,4 +1,4 @@
 ---
-layout: compress
+#layout: compress
 ---
 {% include header.js %}
