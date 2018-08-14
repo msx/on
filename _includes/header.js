@@ -26,7 +26,7 @@
 		button.style.display = "none";
 		input.value = "Cari...";
 		input.focus();
-	}
+	};
 	function reset() {
 		var r = document.querySelector(".header form input").value="";
 		r.focus();
