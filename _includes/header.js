@@ -11,22 +11,22 @@
 				input.value="";
 				input.style.color="#333";
 			}
-		}
+		};
 		input.onblur=function() {
 			if (input.value==="") {
 				input.value="Cari...";
 				input.style.color="#888";
 			}
-		}
+		};
 	}
 	input.onkeyup = function() {
 		button.style.display = (this.value.length) ? "block" : "none";
-	}
+	};
 	button.onclick = function() {
 		button.style.display = "none";
 		input.value = "Cari...";
 		input.focus();
-	}
+	};
 	function reset() {
 		var r = document.querySelector(".header form input").value="";
 		r.focus();
