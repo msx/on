@@ -2,3 +2,4 @@
 layout: compress
 ---
 {% include global.css %}
+{% include header.css %}
