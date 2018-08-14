@@ -21,19 +21,19 @@
 	}
 	input.onkeyup = function() {
 		button.style.display = (this.value.length) ? "block" : "none";
-	};
+	}
 	button.onclick = function() {
 		button.style.display = "none";
 		input.value = "Cari...";
 		input.focus();
-	};
+	}
 	function reset() {
 		var r = document.querySelector(".header form input").value="";
 		r.focus();
 	}
+
 	var toggle=document.querySelector(".header .more");
 	var checkbox=document.querySelector(".header #more");
-
 	document.onclick=function(e) {
 		var target=e.target;
 		if( !checkbox.checked || toggle.contains(target) || (target===checkbox || target===toggle)) return;
