@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-(function() {
+;(function() {
 	var input = document.querySelector(".header form input");
 	var button = document.querySelector(".header form button");
 	var test=document.createElement("input");
@@ -21,7 +21,7 @@ layout: compress
 				input.style.color="#888";
 			}
 		};
-	}
+	};
 	input.onkeyup = function() {
 		button.style.display = (this.value.length) ? "block" : "none";
 	};
@@ -32,7 +32,7 @@ layout: compress
 	};
 	function reset() {
 		var r = document.querySelector(".header form input").value="";r.focus();
-	}
+	};
 
 	var toggle=document.querySelector(".header .more");
 	var checkbox=document.querySelector(".header #more");
