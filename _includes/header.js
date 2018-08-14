@@ -21,7 +21,7 @@
 	}
 	input.onkeyup = function() {
 		button.style.display = (this.value.length) ? "block" : "none";
-	}
+	};
 	button.onclick = function() {
 		button.style.display = "none";
 		input.value = "Cari...";
