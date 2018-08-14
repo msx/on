@@ -18,7 +18,7 @@
 				input.style.color="#888";
 			}
 		};
-	};
+	}
 	input.onkeyup = function() {
 		button.style.display = (this.value.length) ? "block" : "none";
 	};
