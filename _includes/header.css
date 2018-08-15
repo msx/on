@@ -60,6 +60,7 @@
 	position: absolute;
 	right: 1em;
 	width: 0;
+	z-index: 1;
 }
 .header .menu a {
 	display: block;
