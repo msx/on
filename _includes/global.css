@@ -36,3 +36,10 @@ a {
 	padding: 0 1em;
 	position: relative;
 }
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
