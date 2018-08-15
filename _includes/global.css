@@ -28,6 +28,13 @@ a {
 	text-decoration: none;
 	outline: 0;
 }
+img {
+	border: 0;
+	display: block;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
 .wrapper {
 	margin: auto;
 	max-width: 1200px;
