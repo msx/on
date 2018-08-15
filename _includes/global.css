@@ -28,11 +28,11 @@ a {
 	text-decoration: none;
 	outline: 0;
 }
-.container {
+.wrapper {
 	margin: auto;
 	max-width: 1200px;
 }
-.inner {
-	padding: .85em 1em;
+.col {
+	padding: 0 1em;
 	position: relative;
 }
