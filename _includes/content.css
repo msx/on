@@ -1,6 +1,18 @@
-.entry {
-	width: 66.66666667%;
+@media (min-width:768px) {
+	.entry {
+		width: 66.66666667%;
+	}
+	.aside {
+		width: 33.33333333%;
+	}
 }
-.aside {
-	width: 33.33333333%;
+.post, .most {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	-moz-box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	box-shadow: 0 1px 3px #cccccc, 0 1px 2px #aaaaaa;
+	padding: 1em;
+	margin: 0 0 1em
 }
