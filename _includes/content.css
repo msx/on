@@ -28,3 +28,9 @@
 		margin-left: 1em;
 	}
 }
+.post .thumb {
+	margin: -2em -2em .1px;
+}
+.post .thumb * {
+	width: 100%;
+}
