@@ -33,6 +33,7 @@ a {
 	max-width: 1200px;
 }
 .col {
+	float: left;
 	padding: 0 1em;
 	position: relative;
 }
