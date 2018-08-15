@@ -1,8 +1,8 @@
 .header {
-	background: #ffffff;
 	-webkit-box-shadow: 0 1px 3px #dddddd, 0 1px 2px #eeeeee;
 	-moz-box-shadow: 0 1px 3px #dddddd, 0 1px 2px #eeeeee;
 	box-shadow: 0 1px 3px #dddddd, 0 1px 2px #eeeeee;
+	margin: 0 0 1em;
 }
 .header .top {
 	padding-top: .85em;
