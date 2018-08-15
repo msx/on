@@ -2,7 +2,11 @@
 	background: #ffffff;
 	border-bottom: 1px solid #e7e7e7;
 }
-.header h1, .header h2 {
+.header .top {
+	padding-top: .85em;
+	padding-bottom: .85em;
+}
+.header .title {
 	display: inline;
 	font-size: 1.5em;
 	font-weight: normal;
@@ -12,11 +16,14 @@
 .header a {
 	color: inherit;
 }
+.header svg {
+	height: 1.5em;
+	width: 1.5em;
+}
 .header [type=checkbox] {
 	display: none;
 }
-.header label,
-.header button {
+.header label, .header button {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -39,7 +46,7 @@
 .header label:hover {
 	background: #e7e7e7;
 }
-.header .section {
+.header .menu {
 	background: #ffffff;
 	-webkit-border-radius: .2em;
 	-moz-border-radius: .2em;
@@ -53,16 +60,16 @@
 	right: 1em;
 	width: 0;
 }
-.header .section a {
+.header .menu a {
 	display: block;
 	font-size: 90%;
 	padding: .6em 1em;
 	white-space: pre;
 }
-.header .section a:hover {
+.header .menu a:hover {
 	background: #f7f7f7;
 }
-.header #more:checked ~ nav .section {
+.header #more:checked ~ .menu {
 	min-width: 9em;
 }
 .header form {
@@ -93,35 +100,31 @@
 	padding: .8em 1em .8em 3em;
 	width: 100%;
 }
-.header input::-ms-clear,
-.header input::-ms-reveal {
+.header input::-ms-clear, .header input::-ms-reveal {
 	display: none;
 	width: 0;
 	height: 0;
 }
-.header input::-webkit-search-decoration,
-.header input::-webkit-search-cancel-button,
-.header input::-webkit-search-results-button,
-.header input::-webkit-search-results-decoration {
+.header input::-webkit-search-decoration, .header input::-webkit-search-cancel-button, .header input::-webkit-search-results-button, .header input::-webkit-search-results-decoration {
 	display: none;
 }
-.header ::-webkit-input-placeholder {
+.header::-webkit-input-placeholder {
 	color: #888;
 }
-.header ::-moz-placeholder {
+.header::-moz-placeholder {
 	color: #888;
 	opacity: 1;
 }
-.header :-moz-placeholder {
+.header:-moz-placeholder {
 	color: #888;
 }
-.header ::-ms-input-placeholder {
+.header::-ms-input-placeholder {
 	color: #888;
 }
-.header :-ms-input-placeholder {
+.header:-ms-input-placeholder {
 	color: #888;
 }
-.header ::placeholder {
+.header::placeholder {
 	color: #888;
 	opacity: 1;
 }
@@ -135,7 +138,7 @@
 .header form input:valid ~ button {
 	display: block;
 }
-.header .back, .header .section, .header form {
+.header .back, .header .menu, .header form {
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	-moz-transition: 0.3s;
@@ -144,6 +147,6 @@
 .header form, .header label, .header button {
 	-webkit-transform: translate(0, -50%);
 	-moz-transform: translate(0, -50%);
-	-o-transform: translate(0, -50%);;
+	-o-transform: translate(0, -50%);
 	transform: translate(0, -50%);
 }
